@@ -1,0 +1,112 @@
+.card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: initial;
+}
+
+.card-1{
+    width: 100%;
+    margin: 0.5rem 0.6rem 0 0.6rem;
+}
+
+.card-2{
+    width: 100%;
+    margin: 0.2rem 0.6rem;
+}
+
+.img-card{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.heading{
+    color: #000;
+    font-size: large;
+    font-weight: normal;
+}
+
+.mob{
+    margin: 0.6rem 0.5rem 0 0.5rem;
+    z-index: -1000;
+}
+
+.mob_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    display: flex;
+}
+
+.flex-nav{
+    display: flex;
+    color: #000;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 0 4rem;
+    z-index: 1111;
+    box-shadow: 0 0 1.5px #000;
+}
+
+.flex-item{
+    font-size: small;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-item:hover{
+    color: #2874f0;
+}
+
+.more-arrow{
+    transform: rotate(270deg);
+    transition: transfrom .1s;
+}
+
+.nav-item:hover .more-arrow{
+    transform: rotate(90deg);
+}
+
+.dropdown{
+    display: none;
+    width: 100%;
+    max-width: max-content;
+    height: auto;
+    position: absolute;
+    border: 1px solid yellow;
+    margin: 0 5rem 0 5rem;
+    z-index: 1000;
+}
+
+.dropdown1{
+    background-color: #ffffff;
+    width: 100%;
+    border: 1px solid red;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.dropdown2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid red;
+    padding: 0.5rem 1rem;
+}
+
+.drop-item{
+    padding: 0.5rem 0;
+}

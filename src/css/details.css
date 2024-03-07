@@ -1,0 +1,47 @@
+.mt{
+    margin-top: 2rem;
+    background-color: #fff;
+    height: auto;
+}
+
+.bg-col{
+    padding: 3rem 1.5rem;
+}
+
+.txt{
+    color: #848484;
+    font-size: small;
+}
+
+.txt-1{
+    color: #565656;
+    font-size: small;
+    cursor: pointer;
+}
+
+.MSFOF{
+    margin: -2rem 2rem 0 1.5rem ;
+    padding: 5px 0 0 0;
+}
+
+.List{
+    padding: 5px 0 0 0;
+    margin: 0 2rem 0 1.5rem;
+}
+
+h4, h5{
+    padding: 0.5rem 0;
+    color: #848484;
+    font-size: medium;
+}
+
+h5{
+    font-size: small !important;
+}
+
+p, .pro-para{
+    color: #848484;
+    padding: 0.5rem 0.8rem 0.5rem 0;
+    font-size: smaller;
+    text-align: justify;
+}

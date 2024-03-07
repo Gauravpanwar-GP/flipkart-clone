@@ -1,0 +1,36 @@
+.foot-bg{
+    background-color: #172337;
+    padding: 2rem;
+    font-size: small;
+}
+
+.foot-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.head{
+    color: #878787;
+    font-size: 0.8rem;
+}
+
+.p-txt{
+    color: #fff;
+    padding: 4px;
+}
+
+.wid{
+    height: 8rem;
+    background-color: #878787;
+}
+
+.widdd{
+    width: 100%;
+}
+
+.padd{
+    padding-top: 1rem;
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
